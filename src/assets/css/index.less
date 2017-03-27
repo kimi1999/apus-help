@@ -1,0 +1,123 @@
+@import "reset.less";
+
+html, body, #app {
+  height: 100%;
+}
+body.arab{
+  direction: rtl;
+}
+
+@import "./font";
+
+.main-group .uther-cell-text {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  -webkit-box-flex: 1;
+  line-height: 1.2em;
+  padding-right: 40px;
+}
+
+.uther-header {
+  height: 50px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+
+  h1 {
+    font-size: 16px;
+  }
+  .uther-header-button.is-left {
+    //width: 30px;
+    margin-right: 15px;
+    flex: initial;
+    span {
+      font-size: 14px;
+    }
+
+  }
+}
+
+.uther-tab-item {
+  height: 56px;
+}
+
+.uther-tabbar {
+  box-shadow: 0px -1px 2px 0px rgba(68, 68, 68, 0.1);
+}
+
+.uther-tabbar > .uther-tab-item.is-selected {
+  background: #fff;
+  color: #444;
+  a {
+    color: #444;
+  }
+  .uthur-flexbox {
+    height: 100%;
+  }
+}
+
+.uther-group-title {
+  background: #f8f8f8;
+}
+.uther-tab-item {
+  position: relative;
+  &:first-child:after {
+    content: '';
+    width: 1px;
+    height: 60%;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 20%;
+    background: #444;
+    opacity: 0.8;
+  }
+}
+
+.main-group .uther-group-wrapper {
+  padding: 0 15px;
+  .uther-cell-allow-right:after {
+    right: 5px;
+    border-color: #666;
+  }
+}
+
+.icon-back {
+  position: relative;
+  top: 1px;
+}
+
+.uther-field.is-textarea {
+  border: 0;
+  background: none;
+}
+
+.loading-wrapper {
+  color: rgba(0, 0, 0, 0.870588);
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  width: 45px;
+  height: 45px;
+  padding: 6px;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  span {
+    position: relative;
+    top: 2px;
+    transform: scale(0.9);
+  }
+}
+
+#app .is-left{
+  a{
+    display: inline-block;
+    width: auto;
+  }
+  -webkit-box-flex: initial;
+  width: auto;
+}

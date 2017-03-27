@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>
+Created by FontForge 20120731 at Wed Nov 23 10:31:34 2016
+ By admin
+</metadata>
+<defs>
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face 
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    panose-1="2 0 6 3 0 0 0 0 0 0"
+    ascent="896"
+    descent="-128"
+    x-height="792"
+    bbox="0 -179 1024 867"
+    underline-thickness="0"
+    underline-position="0"
+    unicode-range="U+0078-E85D"
+  />
+<missing-glyph 
+ />
+    <glyph glyph-name=".notdef" 
+ />
+    <glyph glyph-name=".notdef" 
+ />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="341" 
+ />
+    <glyph glyph-name="x" unicode="x" horiz-adv-x="1001" 
+d="M281 543q-27 -1 -53 -1h-83q-18 0 -36.5 -6t-32.5 -18.5t-23 -32t-9 -45.5v-76h912v41q0 16 -0.5 30t-0.5 18q0 13 -5 29t-17 29.5t-31.5 22.5t-49.5 9h-133v-97h-438v97zM955 310v-52q0 -23 0.5 -52t0.5 -58t-10.5 -47.5t-26 -30t-33 -16t-31.5 -4.5q-14 -1 -29.5 -0.5
+t-29.5 0.5h-32l-45 128h-439l-44 -128h-29h-34q-20 0 -45 1q-25 0 -41 9.5t-25.5 23t-13.5 29.5t-4 30v167h911zM163 247q-12 0 -21 -8.5t-9 -21.5t9 -21.5t21 -8.5q13 0 22 8.5t9 21.5t-9 21.5t-22 8.5zM316 123q-8 -26 -14 -48q-5 -19 -10.5 -37t-7.5 -25t-3 -15t1 -14.5
+t9.5 -10.5t21.5 -4h37h67h81h80h64h36q23 0 34 12t2 38q-5 13 -9.5 30.5t-9.5 34.5q-5 19 -11 39h-368zM336 498v228q0 11 2.5 23t10 21.5t20.5 15.5t34 6h188q31 0 51.5 -14.5t20.5 -52.5v-227h-327z" />
+    <glyph glyph-name="right" unicode="&#xe696;" 
+d="M512 779q-97 0 -186 -38t-153 -102t-102 -153t-38 -186t38 -186t102 -153t153 -102t186 -38t186 38t153 102t102 153t38 186t-38 186t-102 153t-153 102t-186 38zM784 448l-345 -353q-11 -12 -28 -11q-17 -1 -29 11l-142 151q-11 12 -10 28.5t13 28t28.5 11.5t27.5 -12
+l112 -118l314 321q11 12 27.5 12t28.5 -12t13 -28.5t-10 -28.5z" />
+    <glyph glyph-name="send" unicode="&#xe7f4;" 
+d="M86 0l895 384l-895 384l-1 -299l640 -85l-640 -85l1 -299v0z" />
+    <glyph glyph-name="feedbackwrite" unicode="&#xe85d;" 
+d="M877 704q11 17 8 34t-12 30l-9 13q-26 32 -70 64q-20 14 -39.5 14t-28.5 -7l-9 -7l-77 -71l154 -153zM755 589l-141 153l-422 -422l147 -160zM160 282l-83 -244l230 103zM0 -32h1024v-64h-1024v64z" />
+    <glyph glyph-name="back" unicode="&#xe608;" 
+d="M1 384l29 -49l437 -434l69 69l-367 365h854v98h-854l367 365l-69 69l-437 -434z" />
+  </font>
+</defs></svg>
